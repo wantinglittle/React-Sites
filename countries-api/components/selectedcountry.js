@@ -41,11 +41,11 @@ const SelectedCountry = (props) => {
 
     return (
     <div className="sc-container" id={theme}>
-      <div className="go-back-container">
-        <div className="go-back" id={theme} onClick={() => navigate(-1)}>
-        <i className="fa-solid fa-arrow-left"></i><p>Back</p>
+        <div className="go-back-container">
+          <div className="go-back" id={theme} onClick={() => navigate(-1)}>
+          <i className="fa-solid fa-arrow-left"></i><p>Back</p>
+          </div>
         </div>
-      </div>
       <div className="sc-container-country">
         <div className="sc-flag-container">
           <img src={database[index].flags.svg} alt="flag" className="sc-flag" />
