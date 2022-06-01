@@ -1,0 +1,175 @@
+.addClientPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addClientContainer {
+  width: 40rem;
+  margin: 30px 0;
+  background-color: #b2d4ee;
+  padding: 20px 40px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.addClientContainer .addClientTitle {
+  font-size: 1.8rem;
+}
+
+form {
+  text-align: left;
+}
+
+.inputFull {
+  width: 100%;
+}
+
+.labels {
+  margin-top: 0.9rem;
+}
+
+input,
+select {
+  height: 2.5rem;
+  margin: 3px 3px 5px 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.addClientCity {
+  width: 19rem;
+}
+
+.addClientState {
+  width: 5rem;
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+.addClientZip {
+  width: 10rem;
+}
+
+.addClientEmail {
+  width: 30rem;
+}
+
+.deliverableContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addClientDeliverable {
+  width: 12rem;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.addClientDueDate {
+  height: 52px;
+  margin-top: 7px;
+}
+
+.addClientButton {
+  width: 80px;
+  min-width: 80px;
+  height: 2rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: right;
+  border-radius: 7px;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  background-color: #ffffff;
+}
+
+.addClientButton:hover {
+  background-color: #fc8787;
+}
+
+.disabledButton {
+  pointer-events: none;
+}
+
+.offscreen {
+  display: none;
+}
+
+.editSaveButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.editSaveButtonContainer .needToBeLoggedIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.onscreen {
+  color: red;
+}
+
+.hidden {
+  display: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .addClientContainer {
+    width: 20rem;
+    padding: 20px 20px;
+  }
+  input,
+  select {
+    height: 2rem;
+  }
+  .addClientCity {
+    width: 100%;
+  }
+  .addClientZip {
+    width: 12rem;
+  }
+  .addClientState {
+    margin-left: 0;
+    height: 2.4rem;
+  }
+  .addClientPhone, .addClientEmail {
+    width: 100%;
+  }
+  .deliverableContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .addClientDueDate {
+    width: 100%;
+  }
+  .editSaveButtonContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=addClient.css.map */

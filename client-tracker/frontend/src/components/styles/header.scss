@@ -1,0 +1,79 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 450px;
+  justify-content: space-between;
+  margin-top: 10px;
+  resize: horizontal;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.logo {
+  width: 200px;
+  text-align: left;
+}
+
+.authenticate {
+  width: 15rem;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  a:hover {
+    color: blue;
+    cursor: pointer;
+  }
+}
+
+.authContainer {
+  width: 15rem;
+  text-align: right;
+}
+
+.authenticate:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+  margin-top: 20px;
+  width: 100%;
+  gap: 40px;
+  p {
+    a {
+      
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+.headerContainer {
+  min-width: 350px;
+}
+.menu {
+  p {
+  a {
+    font-size: 1rem;
+  }
+}
+}
+}
