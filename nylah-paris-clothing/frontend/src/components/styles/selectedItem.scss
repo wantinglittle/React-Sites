@@ -1,0 +1,44 @@
+.SIContainer {
+    display: flex;
+    align-items: center ;
+    width: 700px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.SIimageContainer {
+    width: 300px;
+}
+
+.SIitemDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.SIitemTitle {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.SIitemDescription {
+    font-size: 1.2rem;
+}
+.SIAddToCartButton {
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    background-color: #61a5c3;
+}
+
+@media (max-width: 750px) {
+    .SIContainer {
+      flex-direction: column;
+    }
+  }

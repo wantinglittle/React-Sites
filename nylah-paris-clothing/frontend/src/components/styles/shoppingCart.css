@@ -1,0 +1,137 @@
+.SCContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  width: 400px;
+  padding: 5px;
+}
+
+.SCContainer .SCTitle {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.cartItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 1px lightgray;
+  margin-top: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.resultsItemUL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+}
+
+.displayItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.resultsItemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+}
+
+.resultTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 220px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.cartItemImage {
+  height: 250px;
+  width: 195px;
+  margin-bottom: 15px;
+}
+
+.resultPicture {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.deleteCartItem {
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  padding: 7px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  background-color: #61a5c3;
+}
+
+.resultPrice {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.titleAndButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.totalCostWrapper {
+  position: relative;
+}
+
+.totalCostContainer {
+  position: fixed;
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+.totalCostContainer p {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=shoppingCart.css.map */

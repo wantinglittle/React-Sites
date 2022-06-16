@@ -1,0 +1,27 @@
+.homeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../../../public/images/pexels-andrea-piacquadio-790357.jpg) no-repeat #cecef6;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  z-index: -2;
+}
+
+.homeSplashImage {
+  min-width: 100%;
+  max-width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: auto;
+  min-height: 100vh;
+  max-width: none;
+}
+/*# sourceMappingURL=home.css.map */

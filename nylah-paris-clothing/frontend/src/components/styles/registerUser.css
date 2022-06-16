@@ -1,0 +1,40 @@
+.registrationContainer {
+  margin-top: 100px;
+}
+
+.registrationContainer h1 {
+  font-size: 3rem;
+}
+
+.registerUserForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.registerUserForm input {
+  height: 2.5rem;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  margin-top: 5px;
+}
+
+.registerUserForm button {
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  padding: 7px;
+  margin-top: 15px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1.5rem;
+  background-color: #61a5c3;
+}
+/*# sourceMappingURL=registerUser.css.map */

@@ -1,0 +1,100 @@
+.SCContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 400px;
+  padding: 5px;
+
+  .SCTitle {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.cartItems {
+  display: flex;
+  justify-content: center;
+  border: solid 1px lightgray;
+  margin-top: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.resultsItemUL {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+}
+
+.displayItem {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.resultsItemContainer {
+  display: flex;
+  width: 600px;
+}
+
+.resultTitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 220px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.cartItemImage {
+  height: 250px;
+  width: 195px;
+  margin-bottom: 15px;
+}
+
+.resultPicture {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.deleteCartItem {
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    background-color: #61a5c3;
+}
+
+.resultPrice {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.titleAndButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalCostWrapper {
+  position: relative;
+}
+
+.totalCostContainer {
+  position: fixed;
+  margin-top: 80px;
+  padding-left: 20px;
+  p {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,65 @@
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+
+  .resultsHeading {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+}
+
+.displayItem {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 350px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.resultsItemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px;
+}
+
+.resultPicture {
+  width: 300px;
+  margin-bottom: 8px;
+}
+.resultTitle {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.displayItemLink {
+  text-decoration: none;
+}
+
+.resultsItemUL {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  * {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.resultPrice {
+    font-size: 1rem;
+}
