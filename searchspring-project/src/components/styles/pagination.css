@@ -1,0 +1,72 @@
+.pagiContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 40px 0;
+  gap: 7px;
+}
+
+.pageButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: lightblue;
+  border-radius: 100%;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  border: none;
+  outline: none;
+}
+
+.pageButton:hover {
+  background-color: #66a5be;
+}
+
+.currPageButton {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+.currPageButton:hover {
+  cursor: auto;
+}
+
+.ellipsisSS {
+  display: none;
+}
+
+#smallScreen1 {
+  display: none;
+}
+
+@media (max-width: 570px) {
+  .pageLinks {
+    display: none;
+  }
+  #smallScreen1 {
+    display: block;
+  }
+  .ellipsisSS {
+    display: block;
+  }
+  .ellipsis {
+    display: none;
+  }
+}
+/*# sourceMappingURL=pagination.css.map */

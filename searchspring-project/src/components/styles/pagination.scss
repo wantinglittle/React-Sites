@@ -1,0 +1,60 @@
+.pagiContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 40px 0;
+    gap: 7px;
+}
+
+.pageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 100%;
+    transition: 200ms;
+    border: none;
+    outline: none;
+}
+
+.pageButton:hover {
+    background-color: #66a5be;
+}
+
+.currPageButton {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.currPageButton:hover {
+    cursor: auto;
+}
+
+.ellipsisSS {
+    display: none;
+}
+
+#smallScreen1 {
+    display: none;
+  }
+
+@media (max-width: 570px) {
+    .pageLinks {
+      display: none;
+    }
+    #smallScreen1 {
+        display: block;
+    }
+    .ellipsisSS {
+        display: block;
+    }
+    .ellipsis {
+        display: none;
+    }
+  }
+  

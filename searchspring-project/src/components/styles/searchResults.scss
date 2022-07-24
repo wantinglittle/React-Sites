@@ -1,0 +1,40 @@
+.resultsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+//   margin-top: 10px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  list-style: none;
+  gap: 10px;
+  margin-bottom: 15px;
+  > * {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.itemPrice {
+    display: inline;
+    .priceCrossout {
+        text-decoration: line-through;
+    }
+}
+
+.noResults {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+}
